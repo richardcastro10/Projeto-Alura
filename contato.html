@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+                <h1><img src="logo.png" alt="logo"></h1>
+        <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="produtos.html">Produtos</a></li>
+            <li> <a href="contato">Contatos</a></li>
+        </ul>
+        </nav>
+        </div>
+            </header>
+            <main>
+<form>
+    <LABel for="nomesobrenome">Nome e sobrenome</LABel>
+    <input type="text" id="nomesobrenome" class="input-padrao" required
+    placeholder="ex:Roberto dos Santos">
+
+    <LABel for="email">Email</LABel>
+    <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com.br">
+
+    <LABel for="telefone">Telefone</LABel>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+    <label for="mensagem">Mensagem</label>
+    <Textarea cols="70" rows="10" id="mensagem"></Textarea>
+<div>
+        <p>Como preferem o nosso contato ?</p>
+        <label class="checkbox" for="radio-email"><input type="radio" name="contato" id="radio-email">Email</label>
+        
+
+        <label  for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone">Telefone</label>
+       
+
+        <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked>Whatsapp</label>
+        
+</div>
+
+<div>
+    <p>Qual horário prefere para contato ?</p>
+    <select >
+    <p>Qual horário prefere para contato ?</p>
+    <option value="text"> Manhã  </option>
+    <option value="text"> Tarde  </option>
+    <option value="text"> Noite  </option>
+
+
+</select>
+</div>
+
+
+<label><input type="checkbox" id="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+
+
+    <input type="submit" name="Enviar Formulário" id="Enviar Formulário" class="enviar">
+</form>
+<table>
+    <thead>
+    <tr>
+        <th>Dia </th>
+        <th>Horario</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Segunda</td>
+        <td>8h ~ 20h</td>
+    </tr>
+    <tr>
+        <td>Quarta</td>
+        <td>8h ~ 20h</td>
+    </tr>
+    <tr>
+        <td>Sexta</td>
+        <td>8h ~ 20h</td>
+    </tr>
+</tbody>
+</table>
+
+            </main>
+            <footer>
+                <img src="logo-branco.png" alt="logo">
+                <p class="copyrigth"> &copy; copyrigth - Barbearia alura</p>
+            </footer>
+</body>
+</html>
